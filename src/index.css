@@ -1,0 +1,97 @@
+@tailwind base;
+
+
+@layer base {
+  body {
+    @apply bg-grey-3 font-primary text-base leading-relaxed;
+  }
+  .section {
+    @apply py-[50px] lg:py-[70px];
+  }
+  .title {
+    @apply text-xl md:text-lg lg:text-[25px] capitalize leading-tight font-semibold mb-4;
+  }
+  .subtitle {
+    @apply text-[18px] lg:text-[20px] leading-relaxed mb-5 lg:mb-9;
+  }
+  .btn {
+    @apply px-6 py-2 bg-red-500 text-white rounded-md;
+  }
+  .headerIcon{
+    @apply text-black;
+  }
+  .headerSearchItem{
+    @apply flex items-center gap-2;
+  }
+  .headersearchtext{
+    @apply text-gray-400 cursor-pointer
+  }
+  .optionsDetails{
+    @apply flex items-center gap-2 text-xs text-black
+  }
+  .boxSpan{
+    @apply bg-gray-300 disabled:cursor-not-allowed hover:bg-gray-400 rounded-md px-3 py-1
+  }
+  .featuresImg{
+    @apply w-full object-cover 
+  }
+  .featureitems{
+    @apply relative text-white rounded-md overflow-hidden h-[250px] 
+  }
+  .featuresTitles{
+    @apply absolute bottom-10 lg:bottom-5 capitalize left-3
+  }
+  .propertiesItems{
+    @apply flex-1 rounded-md overflow-hidden object-cover
+  }
+  .propertyImages{
+    @apply w-full h-[150px] object-cover
+  }
+  .propertyDetails >h1 {
+    @apply text-xl text-gray-500
+  }
+  .propertyDetails > h4{
+    @apply text-xs font-light
+  }
+  .footerList{
+    @apply p-0
+  }
+  .footerListItem{
+    @apply mb-2 text-gray-500 capitalize hover:text-red-400 cursor-pointer
+  }
+  .optionsWrapper{
+    @apply p-1
+  }
+  .optionsItems{
+    @apply flex justify-between mb-3 text-white text-xs
+  }
+  .OptionsInput{
+    @apply w-14 text-black
+  }
+  
+}
+
+
+@tailwind components;
+@tailwind utilities;
+
+
+
+.headerlistitem.active {
+  border: 1px solid white;
+  padding: 8px;
+  border-radius: 15px;
+  background-color: brown;
+}
+.flex-3{
+  flex: 3;
+}
+small{
+  font-size: 8px;
+}
+.seacrhDesc{
+  flex: 2;
+}
+.hotelDetailsText{
+  flex: 3;
+}
