@@ -15,8 +15,8 @@ const Login = () => {
             <img src={a1} alt="" className='w-full h-full object-cover'/>
         </div>
 
-        <div className='bg-gradient-to-r from-pink-400 to bg-gray-700 flex flex-col justify-center px-4'>
-            <form action="" className='max-w-[400px] w-full mx-auto bg-black rounded-lg p-8 px-8 text-white'>
+        <div className='bg-gradient-to-r py-10 from-pink-400 to bg-gray-700 flex flex-col justify-center px-4'>
+            <form action="" className='max-w-[350px] w-full mx-auto bg-black rounded-lg p-8 px-8 text-white'>
                 <h2 className='text-3xl font-semibold text-center'>LOGIN</h2>
 
                 <div className='flex flex-col text-gray-300 capitalize py-2'>

@@ -9,14 +9,14 @@ const MobileNav = () => {
   return (
     <nav className='bg-gray-100 text-black shadow-2xl h-full w-[100vw]'>
 
-        <div className='pt-10 px-5'>
+        <div className='pt-20 px-5'>
             <div className='text mb-8'>
                 <h1 className='font-semibold text-3xl mb-8'>More</h1>
                 <h2>US, USA, Dollar</h2>
 
             </div>
 
-            <div className='text2 flex flex-col gap-y-10 capitalize'>
+            <div className='text2 flex flex-col gap-y-5 capitalize'>
 
                 <div className='flex gap-x-4'>
                 <img src={usa} alt="" className='rounded-full w-7 h-7'/>
@@ -47,7 +47,7 @@ const MobileNav = () => {
             <h1 className='font-semibold text-3xl mb-8 capitalize'>help and support</h1>
             </div>
 
-            <div className='text2 flex flex-col gap-y-10 capitalize'>
+            <div className='text2 flex flex-col gap-y-5 mb-10 capitalize'>
 
                 <div className='flex gap-x-4'>
                 <MdQuestionAnswer size={30}/>
@@ -64,24 +64,7 @@ const MobileNav = () => {
 
         </div>
 
-        <div className='px-5 mt-6 capitalize'>
-            <div className='mb-8'>
-                <h1 className='text-3xl font-semibold mb-8 capitalize'> inspiration</h1>
-            </div>
-
        
-                <div className='flex gap-x-4'>
-                <MdDepartureBoard size={30}/>
-                <h3>deals</h3>
-                </div>
-
-                <div className='flex gap-x-4'>
-                <MdNewLabel size={30}/>
-                <h3>travel articles</h3>
-                </div>
-
-
-                </div>
 
   
         
