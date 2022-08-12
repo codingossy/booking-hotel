@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaBed, FaCar, FaFutbol, FaPlane, FaTaxi } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 import HeaderSearch from './HeaderSearch'
 
 const Header = ( {type} ) => {
@@ -45,7 +46,7 @@ const Header = ( {type} ) => {
             <h1 className='text-white text-2xl lg:text-4xl'>A lifetime of discounts? It's Genius.</h1>
             <p className='desc my-4'> Get rewarded for your travels – unlock instant savings of 10% or
               more with a free booking account</p>
-            <button className='btn hover:bg-red-300'>sign in</button>
+           <Link to='/login'> <button className='btn hover:bg-red-300'>sign in</button></Link>
 
             </div>
             

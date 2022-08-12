@@ -38,8 +38,8 @@ const Navbar = () => {
                   <button className='text-gray-200 border border-gray-50 py-1 px-3 capitalize'>list your property</button>
            
 
-                <button className='px-6 py-2 bg-white text-blue-500 capitalize rounded-md'>register</button>
-                <button className='px-6 py-2 bg-white text-blue-500 capitalize rounded-md'>login</button>
+                <Link to='/register'><button className='px-6 py-2 bg-white text-blue-500 capitalize rounded-md'>register</button></Link>
+                <Link to='/login'><button className='px-6 py-2 bg-white text-blue-500 capitalize rounded-md'>login</button></Link>
             </div>
         
         </div>
